@@ -216,13 +216,16 @@ ul#nav li.current a { color: #5abfb8; }
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
+   color: white;
 }
 
 #resume h2 {
   color: white;
 }
 
-
+#resume h3 {
+  font-weight: bold;
+}
 
 #resume a, #resume a:visited  { color: #11ABB0; }
 #resume a:hover, #resume a:focus { color: #313131; }
@@ -231,6 +234,38 @@ ul#nav li.current a { color: #5abfb8; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
+.publikationsliste img {
+  margin-top: 25px;
+}
+
+.link_hotel img {
+  margin-top: 5px;
+}
+
+.waffenbrueder img {
+  margin-top: 30px;
+}
+
+.archiv img {
+  margin-top: 10px;
+}
+
+#resume ul {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+#resume .textarbeit {
+  margin-bottom: 100px;
+}
+
+#resume .textarbeit .texte {
+  margin-bottom: 30px;
+}
+
+#resume .forschung {
+  margin-bottom: 100px;
+}
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -327,7 +362,6 @@ ul#nav li.current a { color: #5abfb8; }
    padding-bottom: 102px;
    color: #636363;
 }
-#contact .section-head { margin-bottom: 42px; }
 
 /* ------------------------------------------------------------------ */
 /* i. Footer
