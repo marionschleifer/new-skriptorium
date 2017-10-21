@@ -167,6 +167,14 @@ ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #5abfb8; }
 
 
+h2.header-title {
+  margin-bottom: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: white;
+  margin-top: 60px;
+}
+
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
@@ -206,6 +214,10 @@ ul#nav li.current a { color: #5abfb8; }
 }
 #about .main-col { padding-right: 5%; }
 
+#about .name {
+  font-size: 22px;
+}
+
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
@@ -216,6 +228,11 @@ ul#nav li.current a { color: #5abfb8; }
    padding-bottom: 72px;
    overflow: hidden;
    color: white;
+}
+
+#resume li {
+  font-size: 20px;
+  line-height: 30px;
 }
 
 #resume h2 {
@@ -259,6 +276,7 @@ ul#nav li.current a { color: #5abfb8; }
   margin-bottom: 50px;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
+  margin-top: 10px;
 }
 
 #resume .textarbeit {
