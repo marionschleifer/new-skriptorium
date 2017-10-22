@@ -38,7 +38,6 @@ header {
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
-
 }
 
 /* vertically center banner section */
@@ -100,6 +99,10 @@ header .scrolldown a:hover { color: white; }
   height: 60px;
   width: 60px;
   border-radius: 100%;
+}
+
+header .logo {
+  width: 250px;
 }
 
 /* primary navigation
@@ -287,8 +290,16 @@ h2.header-title {
   margin-bottom: 30px;
 }
 
+#resume .textarbeit-list {
+  margin-top: 40px;
+}
+
 #resume .forschung {
   margin-bottom: 100px;
+}
+
+#resume .forschung-list {
+  margin-top: 70px;
 }
 
 /* Flex Slider
